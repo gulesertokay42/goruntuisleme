@@ -14,6 +14,6 @@ for i in range(uzunluk):
         pixel = gri_resim[i, j]  
         histogram[pixel] += 1
         
-plt.bar(range(256), histogram, color='gray')
-plt.title('Histogram tablosu')
+plt.bar(range(256), histogram, color='yellow')
+plt.title('Histogram tablosu', color = "blue")
 plt.show()
